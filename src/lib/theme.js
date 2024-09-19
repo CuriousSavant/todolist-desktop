@@ -2,12 +2,12 @@ import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
-    mode: 'dark', // ใช้ธีมสีดำ
+    mode: 'dark',
     primary: {
-      light: '#6ec6ff', // ตัวอย่างสีที่เบา (Light)
-      main: '#2196f3',  // สีหลัก (Main)
-      dark: '#0069c0',  // ตัวอย่างสีเข้ม (Dark)
-      500: '#2196f3',   // กำหนดสีเฉดตามระดับ
+      light: '#6ec6ff',
+      main: '#2196f3',
+      dark: '#0069c0',
+      500: '#2196f3',
       600: '#1e88e5',
       700: '#1976d2',
       800: '#1565c0',
@@ -24,12 +24,12 @@ const theme = createTheme({
       900: '#880e4f',
     },
     background: {
-      default: '#121212', // สีพื้นหลัง
-      paper: '#1d1d1d', // สีพื้นหลังของกระดาษ
+      default: '#121212',
+      paper: '#1d1d1d',
     },
     text: {
-      primary: '#ffffff', // สีข้อความหลัก
-      secondary: '#b0bec5', // สีข้อความรอง
+      primary: '#ffffff',
+      secondary: '#b0bec5',
     },
   },
 });
