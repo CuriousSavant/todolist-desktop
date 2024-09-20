@@ -9,7 +9,7 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd todolist-desktop-app
+   cd todolist-desktop
    ```
 
 2. **Install dependencies:**
