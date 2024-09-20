@@ -1,6 +1,7 @@
 import { app, BrowserWindow } from 'electron';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { Menu } from '@mui/material';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -15,10 +16,9 @@ function createWindow() {
       enableRemoteModule: false,
       nodeIntegration: false
     },
-    title: 'TodoApp'
   });
 
-  mainWindow.loadURL('http://localhost:3001');
+  mainWindow.loadURL('http://localhost:3000');
 }
 
 app.whenReady().then(() => {
